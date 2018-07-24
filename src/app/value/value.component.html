@@ -1,0 +1,8 @@
+Enter the name<input type="text" #first><br>
+Enter the name<input type="text" #second><br>
+<button type="button" (click)="display(first,second)">Submit</button>
+
+<div *ngFor="let opt of block">
+  {{opt.first}} Breaker {{opt.second}}
+</div>
+Heyyy

@@ -1,0 +1,43 @@
+<div class="main">
+  <div class="nav">
+    <div class="display">
+      {{"MY APP"}}
+    </div>
+  </div>
+
+
+  <div class="count">
+   {{items.length}}
+  </div>
+
+  <div class="login">
+   
+
+    <div class="first">
+      <h5>Heading</h5>
+      <hr>
+      <div *ngFor="let i of items">
+        <a routerLink="/backpage/{{i.id}}">
+          {{i.name}}</a>
+        <hr>
+      </div>
+    </div>
+
+    <div class="second">
+      <h5>Sub-Heading</h5>
+      <hr>
+      <div *ngFor="let i of items">
+        {{i.email}}
+        <hr>
+      </div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <!-- <div *ngFor="let post of posts | async">
+      {{post | json}}
+    </div> -->
+  </div>
+
+
+</div>

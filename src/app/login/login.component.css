@@ -1,0 +1,45 @@
+
+.main
+{
+    height:650px;
+    width:100%;
+    background-color:skyblue;
+     border:solid red;
+     position: relative;
+}
+.login
+{
+    height:350px;
+    width:50%;
+    background-color:lightcoral;
+    border:solid red;
+    position: absolute;
+    left:25%;
+    top:100px;
+    position: relative;
+}
+.cred
+{
+    left:25%;
+    top:25%;
+    position: absolute;
+}
+.nav
+{
+    
+    height:70px;
+    width:100%;
+    background-color:lightslategray;
+     border:solid blueviolet;
+     position: relative;
+}
+.display
+{
+    position:absolute;
+    height:30px;
+    width:10%;
+    background-color:magenta;
+     border:solid blueviolet;
+     left:5%;
+     top:20px;
+}

@@ -1,0 +1,106 @@
+.main
+{
+    height:650px;
+    width:100%;
+    background-color:skyblue;
+     border:solid red;
+     position: relative;
+}
+.back
+{
+    position:absolute;
+    left:25%;
+    top:130px;
+}
+
+
+.count
+{
+    height:50px;
+    width:10%;
+    background-color:greenyellow;
+     border:solid red;
+     position:absolute;
+     left:20%;
+     top:120px;
+}
+.login
+{
+    height:350px;
+    width:50%;
+    background-color:lightcoral;
+    border:solid red;
+    position: absolute;
+    left:25%;
+    top:100px;
+    position: relative;
+}
+.cred
+{
+    left:25%;
+    top:25%;
+    position: absolute;
+}
+.nav
+{
+    
+    height:70px;
+    width:100%;
+    background-color:lightslategray;
+     border:solid blueviolet;
+     position: relative;
+}
+.out
+{
+position: absolute;
+right:20%;
+top:20px;
+}
+.display
+{
+    position:absolute;
+    height:30px;
+    width:10%;
+    background-color:magenta;
+     border:solid blueviolet;
+     left:5%;
+     top:20px;
+}
+
+.first
+{
+    float:left;
+    height:290px;
+    width:48%;
+    border:solid red;
+    max-height:290px;
+    overflow:auto;
+}
+.second
+{
+    float:right;
+    height:290px;
+    width:48%;
+    border:solid blueviolet;
+    max-height:290px;
+    
+    overflow:auto;
+}
+.button
+{
+    color:purple;
+    background-color:burlywood;
+}
+.head
+{
+    height:50px;
+    width:100%;
+    border:solid purple;
+}
+
+.Sub
+{
+    height:50px;
+    width:100%;
+    border:solid purple;
+}

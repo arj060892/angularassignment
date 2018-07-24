@@ -1,0 +1,24 @@
+<div class="main">
+  <div class="nav">
+    <div class="display">
+      MY APP
+    </div>
+  </div>
+  <div class="login">
+    <div class="cred">
+      ID:
+      <input type="number" placeholder="Enter the ID" #id>
+      <br>
+      <br>
+      <br> USERID:
+      <input type="number" placeholder="Enter the UserID" #userid>
+      <br>
+      <br>
+      <br>
+      <button type="button" (click)="getValidate(id,userid)">Login</button>
+      <div *ngFor="let post of posts | async">
+        {{post | json}}
+      </div>
+    </div>
+  </div>
+</div>
